@@ -1,56 +1,59 @@
 body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #f9f9f9;
+  background-color: #ffffff;
   color: #222;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
   background-color: #111;
-  color: white;
+  color: #fff;
   padding: 20px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-nav {
-  background-color: #222;
-  padding: 10px 30px;
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
 }
 
 nav a {
   color: #fff;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  color: #00aaff;
 }
 
-.container {
-  padding: 30px;
-  max-width: 1000px;
-  margin: auto;
+main {
+  padding: 30px 40px;
 }
 
-.apk-button {
-  display: inline-block;
-  background-color: #007bff;
-  color: white;
-  padding: 10px 20px;
-  margin: 10px 10px 10px 0;
-  border-radius: 5px;
-  text-decoration: none;
+section {
+  margin-bottom: 40px;
 }
 
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #222;
-  color: white;
-  margin-top: 40px;
+section h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+ul {
+  padding-left: 20px;
 }

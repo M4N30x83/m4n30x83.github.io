@@ -1,26 +1,136 @@
-<!<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>damnxploit | Home</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | M4N30x83</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background-color: black;
+      color: #00ff00;
+      font-family: 'Courier New', Courier, monospace;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 1px solid #0f0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+      animation: glitch 2s infinite;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #00ff00;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+      border: 1px dashed #00ff00;
+      padding: 15px;
+      background-color: #0a0a0a;
+    }
+
+    h2 {
+      border-bottom: 1px solid #0f0;
+      padding-bottom: 5px;
+    }
+
+    .terminal-line {
+      font-size: 1rem;
+      animation: typing 4s steps(40, end) infinite;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 100%;
+      border-right: 2px solid #0f0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      border-top: 1px solid #00ff00;
+      margin-top: 20px;
+    }
+
+    @keyframes glitch {
+      0% { text-shadow: 2px 2px #f0f; }
+      50% { text-shadow: -2px -2px #0ff; }
+      100% { text-shadow: 2px -2px #f00; }
+    }
+
+    @keyframes typing {
+      0% { width: 0 }
+      100% { width: 100% }
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>👾 damnxploit</h1>
-    <p>Rooted by M4N30x83 | Ethical Hacker Zone</p>
-  </header>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="tools.html">Tools</a>
-    <a href="apks.html">APKs</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-  <div class="container">
-    <h2>Welcome to the Zone</h2>
-    <p>This is a hacker-themed educational website.</p>
-  </div>
-  <footer>⚠️ For educational purposes only. Use responsibly.</footer>
+  <header>
+    <h1>💀 M4N30x83 - damnxploit 💀</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="apks.html">APKs</a></li>
+        <li><a href="contact-disclaimer.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>🌐 Welcome</h2>
+      <p class="terminal-line">Initializing hacker dashboard...</p>
+      <p>M4N30x83 is a digital underground platform for ethical hackers and Android exploiters.</p>
+    </section>
+
+    <section>
+      <h2>🧰 What We Offer</h2>
+      <ul>
+        <li>Premium and public Android hacking tools</li>
+        <li>APK dumps and reverse engineered files</li>
+        <li>WiFi & RF Exploit Scripts</li>
+        <li>ADB Shell Tweaks and Payloads</li>
+        <li>Much more tools available</li>
+        <li>Community support via Telegram</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>⚠️ Legal Notice</h2>
+      <p>All content is for ethical testing, research, and educational use only.</p>
+      <p>Use with permission and do not break the law.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 M4N30x83. Stay rooted 💻</p>
+  </footer>
 </body>
 </html>
+
